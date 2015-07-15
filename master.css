@@ -1,0 +1,147 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow);
+body{
+  margin: 0;
+  padding: 0;
+  height: auto;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+#title{
+  position: relative;
+  text-align: center;
+  font-size: 45pt;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+#subtitle{
+  position: relative;
+  text-align: center;
+  font-size: 35pt;
+  margin-bottom: 5%;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color:darkred;
+}
+#mainbody{
+  border: 2px black solid;
+  position: absolute;
+  top: 8%;
+  width: 70%;
+  left: 15%;
+  min-height: 90%;
+  height: auto;
+  padding-bottom: 2%;
+  margin-bottom: 2%;
+}
+.introduction{
+  position: relative;
+  font-size: 14pt;
+  width: 70%;
+  left: 15%;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+#profile_gif{
+  position: relative;
+  width: 25%;
+  left: 37.5%;
+  border: 2px black solid;
+  border-radius: 100%
+}
+#profile_gif:hover{
+  border: 2px orange solid;
+}
+#navigation{
+  background-color: rgba(0,0,0,.85);
+  color: white;
+  position: fixed;
+  width: auto;
+  right: 0%;
+  z-index: 1000;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+#nav_table{
+  font-size: 22pt;
+  border-collapse: collapse;
+  color: white;
+  cursor: pointer;
+}
+td.nav{
+  border: 2px darkred solid;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 4px;
+  border-top: none;
+}
+td.nav:hover{
+  color:orange;
+}
+#favorites{
+  border-right: none;
+}
+#about_me{
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+img.about_me_image{
+  border: 2px black solid;
+  border-radius: 10%;
+  width: 400px;
+  min-height: 100px;
+  height: auto;
+}
+#favorites_table{
+  position: relative;
+  width: 100%;
+  border-collapse: auto;
+  table-layout: fixed;
+  text-align: center;
+}
+img.favorites_img{
+  border: 2px black solid;
+  border-radius: 100%;
+  height: 225px;
+  width: 225px;
+}
+img.favorites_img:hover{
+  border: 2px orange solid;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  z-index: 5;
+}
+td.favorite{
+  padding-bottom: 1em;
+  padding-top: 1em;
+  table-layout: fixed;
+}
+hr{
+  border-style: solid;
+  border-width: 1px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+#hobbies{
+  position: relative;
+  text-align: center;
+  font-size: 35pt;
+  margin-bottom: 5%;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color:darkred;
+}
+#hobbies_table{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  border-collapse: collapse;
+  width:100%;
+  font-size: 30pt;
+  border-top: 2px black solid;
+}
+td.hobby{
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+.red{
+  color:orange;
+}
